@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Titillium Web', sans-serif;
+    color: #000;
+    
+}
+
+section{
+    margin: 50px 0;
+}
+
+.fa-phone{
+    color: #1778F2;
+    font-size: 22px;
+    border: 2px solid #1778F2;
+    border-radius: 30px;
+    padding: 8px;
+    margin-right: 10px;
+}
+.header{
+    padding-top: 30px;
+}
+.contact_details label{
+    font-size: 20px;
+}
+
+.contact_details .registerbutton{
+    width: 300px;
+    text-align: center;
+}
+
+.registerbutton a{
+    width: 180px;
+    background-color: #f2aa1d;
+    color: #000;
+    border-radius: 30px;
+}
+.registerbutton a:hover{
+    width: 180px;
+    border:2px solid #000;
+    color: #f2aa1d;
+    font-weight: 700;
+}
+
+
+
+.banner1{
+    overflow: hidden;
+    
+}
+
+.banner1 .unlock{
+    background-color: #3e4040;
+    color: #fff;
+    /* padding: 60px 0px 60px 125px; */
+}
+
+.banner1 .unlock h1 span{
+font-weight: 900;
+}
+.banner2{
+    background-color: #f2f2f2;
+}
+
+.welcometext p{
+    padding: 60px;
+    font-size: 20px;
+}
+
+.banner3 h1{
+    font-weight: bolder;
+    font-size: 45px;
+    color: #000;
+}
+
+.banner3 p{
+    /* padding: 60px; */
+    font-size: 20px;
+}
+
+.banner4{
+    background-color: #f2aa1d;
+    padding: 30px 0px;
+    height: 300px;
+}
+
+.fa-youtube{
+    color: #ff0000;
+    font-size: 20px;
+}
+
+.banner4 a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.banner4 .youtube{
+    margin-top: 40px;
+}
+
+/* .banner5{
+    margin-top: 200px;
+} */
+
+.banner5 h3{
+    padding: 40px 20px 40px;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width:500px) {
+    .logo{
+        text-align: center;
+    }
+    .contact_details label {
+        font-size: 16px;
+    }
+    .contact_details .registerbutton {
+        width: 200px;
+        text-align: center;
+    }
+    .registerbutton a:hover {
+        width: 150px;
+    }
+    .contact_details{
+        padding: 20px;
+    }
+    .fa-phone {
+        font-size: 16px;
+    }
+
+    .banner1 .unlock br{
+        display: none;
+    }
+    .banner1 .unlock {
+        padding: 27px;
+        text-align: center;
+    }
+
+    .banner1 .unlock h1{
+        margin-bottom: 20px;
+    }
+    .welcometext p {
+        padding: 38px;
+        font-size: 20px;
+    }
+    .welcometext p br{
+        display: none;
+    }
+    .banner3 h1 {
+        font-weight: bolder;
+        font-size: 30px;
+        color: #000;
+    }
+    .banner3 p {
+        padding: 26px;
+        font-size: 20px;
+    }
+    .Watch h3{
+        font-size: 20px;
+    }
+    /* .banner5 {
+        margin-top: 130px;
+    } */
+
+    .footerlogo{
+        margin-bottom: 30px;
+    }
+    
+}
